@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-E69R6JE</Machine>
+    <WindowsUser>junio</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>21f1fede-ab51-4766-811f-f1210dfa9ee0</PackageIdentityName>
+    <PackageIdentityPublisher>CN=junio</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\junio\source\repos\App1\App1\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\junio\source\repos\App1\App1\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>F6572B30604E0846AF9AA21D79DC5A6356D974FB4AA89CA8D2620510F3145846</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>21f1fede-ab51-4766-811f-f1210dfa9ee0_1.0.0.0_neutral__wcfna8wpzz02e</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>21f1fede-ab51-4766-811f-f1210dfa9ee0_wcfna8wpzz02e!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>21f1fede-ab51-4766-811f-f1210dfa9ee0</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=junio</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\junio\source\repos\App1\App1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-28T17:38:37.196</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\junio\source\repos\App1\App1\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2020-04-04T20:47:50.214</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\junio\source\repos\App1\App1\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-03-22T22:08:55.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\junio\source\repos\App1\App1\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-22T22:08:55.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\junio\source\repos\App1\App1\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-22T22:08:55.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\junio\source\repos\App1\App1\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-22T22:08:55.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\junio\source\repos\App1\App1\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-22T22:08:55.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\junio\source\repos\App1\App1\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-22T22:08:55.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\junio\source\repos\App1\App1\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-22T22:08:55.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\junio\source\repos\App1\App1\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2020-04-04T19:08:24.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\junio\source\repos\App1\App1\js\operations.js">
+      <PackagePath>js\operations.js</PackagePath>
+      <Modified>2020-04-01T01:49:03.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\junio\source\repos\App1\App1\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2020-03-29T01:47:21.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\junio\source\repos\App1\App1\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-03-28T17:38:37.076</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

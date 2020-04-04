@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Number Guesser App</title>
+    <link href="css/default.css" rel="stylesheet" />
+    
+
+</head>
+<body style="background-color:powderblue">
+    <h1 id="Guesses Remaining">Guesses Remaining: <span id="NumGuess" ></span></h1>
+    <div>
+        <div>
+            <!--First Screen/Load-Up Screen-->
+            <div class="buttonAlignment">
+                <a href="#" id="Button" class="red">Click To Start!</a>
+            </div>
+            <div class="textAlignment" id="Text">
+                Hello there, I'm here to guess the number your thinking of. Lets begin :D.
+            </div>
+        </div>
+        <!--The Start of the Game(It tells you to think of a number 1-50 here)-->
+        <div>
+            <div class="textAlignment2" id="GameText1">
+                <strong>To begin, think of a number 1 through 50.</strong>
+                <p>I will have 3 attempts to guess your number, so choose your number wisely!</p>
+            </div>
+
+            <div class="The2ndbuttonAlignment" id="TheNextButton">
+                <a href="#" id="Button2" class="TheSecondRed">I've thought of it!</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="The2ndbuttonAlignment" id="TheEven">
+        <a href="#" id="EvenButton" class="red">Even</a>
+        <a href="#" id="OddButton" class="red">Odd</a>
+
+        <div class="textAlignment2" id="EvenOrOdd">
+            <strong>I have 2 questions before I begin guessing.</strong>
+            <p>Is your number Even or Odd?</p>
+        </div>
+    </div>
+    <div class="The2ndbuttonAlignment" id="UnderOrOver25Even">
+        <a href="#" id="Over25ButtonEven" class="red">Over</a>
+        <a href="#" id="Under25ButtonEven" class="red">Under</a>
+
+
+        <div class="textAlignment2" id="UnderOrOver25EvenText">
+            <strong>I have 2 questions before I begin guessing.</strong>
+            <p>Is your number Under Or Over 25?</p>
+        </div>
+
+    </div>
+    <div class="The2ndbuttonAlignment" id="UnderOrOver25Odd">
+
+        <a href="#" id="Over25ButtonOdd" class="red">Over</a>
+        <a href="#" id="Under25ButtonOdd" class="red">Under</a>
+
+        <div class="textAlignment2" id="UnderOrOver25OddText">
+            <strong>I have 2 questions before I begin guessing.</strong>
+            <p>Is your number Under Or Over 25?</p>
+        </div>
+    </div>
+    <div class="The2ndbuttonAlignment" id="Random">
+
+
+        <a href="#" id="Yes" class="red">Yes</a>
+        <a href="#" id="No" class="red">No</a>
+        <p id="NumberGuess" class="textAlignment2"><strong>Is your number <span id="RandomNumber"></span></strong>?</p>
+    </div>
+    
+    <div>
+
+        <div class="textAlignment2" id="YouWin">
+            <p id="WinScreen">
+                I guess I'm really bad at guessing :(
+                You win!
+            </p>
+        </div>
+
+        <div class="The2ndbuttonAlignment">
+            <a href="#" id="PlayAgain" class="red">Play Again!</a>
+            <a href="#" id="TryAgain" class="red">Play Again!</a>
+        </div>
+
+        <div class="textAlignment2" id="YouLose">
+            <p id="WinScreen">HAHAHA! I WIN THIS ONE!!</p>
+            <div class="The2ndbuttonAlignment">
+
+            </div>
+        </div>
+    </div>
+   
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/operations.js"></script>
+</body>
+</html>
